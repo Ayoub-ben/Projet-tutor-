@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #333;
+}
+
+#application {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#canvas {
+  border-radius: 5px;
+  background-image: url("fond.jpg");
+}
+
+#play-btn {
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  background-color: #ff0000;
+  color: white;
+  font-size: 30px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+#play-btn1 {
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  background-color: #ff0000;
+  
+  font-size: 30px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+
+a:link 
+{ 
+ color: white;
+ text-decoration:none; 
+ 
+} 
+#play-btn2 {
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  background-color: #ff0000;
+ 
+  font-size: 30px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration:none; 
+ 
+}
+
+#boutton0 {
+  display: inline-block;
+  margin-left: 75%;
+  margin-top: -50%;
+  padding:10%;
+  text-decoration:none; 
+
+}
+
+
+
+#play-btn:hover {
+  background-color: #e60000;
+}
+
+#play-btn:focus {
+  box-shadow: 0 0 0 4px rgba(179, 0, 0, 0.5);
+}
+
+#speed-slider {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 22%;
+}
+
+#speed-slider p {
+  display: block;
+  margin : auto;
+  text-align: center;
+}
+
+#slider {
+  display: block;
+  margin : auto;
+  appearance: none;
+  width: 180%;
+  border-radius: 5px;
+  height: 25px;
+  margin-left: -40%;
+  background: white;
+  
+}
+
+#slider::-webkit-slider-thumb {
+  appearance: none;
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #ff0000;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+  #chronotime{
+    font-family: sans-serif;
+    position: absolute;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 25px;
+    
+   margin-left: -50%;
+    margin-top: 0%;
+    border-radius: 3px;
+    background: #ff0000;
+    display: inline-block;
+    
+    padding: 15px;
+    border-radius: 3px;
+  
+    
+  }
+  
+
+  
